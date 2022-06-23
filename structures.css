@@ -136,17 +136,47 @@
     }
 
     .stories-about-organization{
+        width: 100%;
+        height: auto;
         display: grid;
         align-items: center;
         justify-items: center;
     }
     .stories-about-organization-container{
         width: 80%;
-        background-color: red;
+        height: 100%;
         display: grid;
         justify-items: center;
         align-items: center;
         grid-row-gap: 10rem;
+    }
+    .actions-for-saving-future{
+        display: grid;
+        justify-items: center;
+        align-items: start;
+        min-height: 0;
+    }
+    .actions-for-saving-future-container{
+        width: 80%;
+        min-height: 0;
+        background-color: red;
+        display: grid;
+        grid-row-gap:5%;
+        border: 2px solid black;
+    }
+    .actions-container{
+        display: grid;
+        grid-row-gap:20%;
+    }
+    .tree-planting-event{
+        display: grid;
+        justify-items: center;
+        grid-row-gap:7%;
+    }
+    .updates-from-quaterly-meeting{
+        display: grid;
+        justify-items: center;
+        grid-row-gap:7%;
     }
 
 }
