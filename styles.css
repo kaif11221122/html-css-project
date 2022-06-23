@@ -1,0 +1,216 @@
+.top-nav-bar-green-tree-initiative{
+    font: normal normal bold 6rem Helvetica;
+    color: #354463;
+}
+.top-nav-bar-links{
+    font: normal normal 300 5rem Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+}
+.top-nav-bar-donate-today{
+    width: 70%;
+    font: normal normal bold 6rem Helvetica;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    color: #354463;
+    border-radius: 10rem;
+    padding: 3.5rem;
+    display: grid;
+    justify-content: center;
+}
+.group-of-top-nav-bar-links{
+    display: grid;
+    grid-row-gap: 3rem;
+}
+
+.what-is-the-issue{
+    width:80%;
+    justify-self: center;
+    background-color: white;
+    padding: 10rem;
+    
+}
+.stop-climate-change-heading{
+    font: normal normal normal 14rem Flood Std;
+    color: white;
+    display: grid;
+    justify-content: center;
+}
+
+.what-is-the-issue-heading{
+    width: 40%;
+    text-align: center;
+    background: #354463 0% 0% no-repeat padding-box;
+    font: normal normal normal 4rem Helvetica;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 4rem;
+    
+}
+.what-is-the-issue-body{
+    text-align: center;
+    font: normal normal bold 5em Helvetica;
+    color: #354463;
+}
+.read-more-environmental-cause{
+    text-align: center;
+    text-decoration: underline;
+    font: normal normal 300 3rem Helvetica;
+    letter-spacing: -0.16px;
+    color: #354463;
+}
+
+.take-action-block{
+    background-color: #C1F7D5;
+}
+.take-action-heading{
+    width: 40%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #354463 0% 0% no-repeat padding-box;
+    text-align: center;
+    font: normal normal normal 4rem Helvetica;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+}
+.take-action-item-type{
+    font: normal normal bold 8rem Helvetica;
+    color: #354463;
+}
+.take-action-item-info{
+    font: normal normal 300 5rem Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+}
+
+.what-we-do-block{
+    background-color: #354463;
+}
+.what-we-do-heading{
+    padding: 4rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    background-color: white;
+    font: normal normal normal 4rem Helvetica;
+    letter-spacing: 0.56px;
+    color: #354463;
+}
+.what-we-do-info{
+    width: 80%;
+    text-align: center;
+    font: normal normal bold 7rem Helvetica;
+    color: #FFFFFF;
+}
+
+.what-we-do-catalogue-heading{
+    font: normal normal bold 6rem Helvetica;
+    color: #354463;
+}
+.what-we-do-catalogue-info{
+    text-align: center;
+    width: 70%;
+    font: normal normal 300 5rem Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+}
+.what-we-do-catalogue{
+    background-color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-bottom: 10%;
+}
+.what-we-do-catalogue-read-more{
+    font: normal normal bold 6rem Helvetica;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    color: #354463;
+    padding: 3%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.what-we-do-catalogue-image{
+    height: 176px;
+    position: relative;
+    transform: translate(0%,-20%);
+}
+.what-we-do-container{
+    padding-top: 10%;
+}
+
+.climate-change-is-issue{
+    background-image: url("resources/did-you-know-android.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: wheat;
+    height: 1200px;
+}
+.climate-change-is-issue-heading{
+    width: 70%;
+    text-align: left;
+    font: normal normal normal 10rem Flood Std;
+    color: #FFFFFF;
+    opacity: 1;   
+}
+.climate-change-is-issue-take-action{
+    text-align: center;
+    width: 40%;
+    height: 15rem;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    font: normal normal bold 4rem Helvetica;
+    color: #354463;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.climate-change-is-issue-catalogue{
+    background-color: brown;
+    padding: 10%;
+}
+.climate-change-catalouge-heading{
+    font: normal normal bold 7rem Helvetica;
+    color: #354463;
+    opacity: 1;
+}
+.climate-change-catalouge-info{
+    font: normal normal 300 4rem Helvetica;
+    color: #354463;
+    opacity: 1;
+}
+.did-you-know{
+    position: absolute;
+    transform: translate(50%,-50%);
+    font: normal normal normal 5rem Helvetica;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    background: #354463 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 3%;
+}
+.icon{
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 5rem;
+    padding: 50%;
+    border-radius: 100%;
+
+}
+
+.stories-about-organization-image{
+    width: 100%;
+    height: 312px;
+    background-image: url("resources/lady-baby.png");
+    background-size: 100% 100%;
+}
+.information-block-of-stories{
+
+}
+.information-block-of-stories-info{
+    text-align: center;
+    font: normal normal bold 8rem Helvetica;
+    color: #FFFFFF;
+}
+.information-block-of-stories-footer{
+
+}
