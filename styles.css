@@ -197,6 +197,10 @@
 
 }
 
+.stories-about-organization{
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
 .stories-about-organization-image{
     width: 100%;
     height: 312px;
@@ -204,7 +208,10 @@
     background-size: 100% 100%;
 }
 .information-block-of-stories{
-
+    background-color: #354463;
+    padding: 10%;
+    display: grid;
+    grid-row-gap:10%;
 }
 .information-block-of-stories-info{
     text-align: center;
@@ -212,5 +219,93 @@
     color: #FFFFFF;
 }
 .information-block-of-stories-footer{
+    text-align: center;
+    font: normal normal normal 11px/13px Helvetica;
+    letter-spacing: 0.44px;
+    color: #FFFFFF;
+    padding: 5%;
+}
+.read-more-about-stories{
+    text-align: center;
+    font: normal normal bold 18px/22px Helvetica;
+    color: #354463;
+    opacity: 1;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    padding: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+.stories-label{
+    position: absolute;
+    transform: translate(80%,-50%);
+    padding: 3%;
+    width: 25%;
+    font: normal normal normal 5rem Helvetica;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    text-align: center;
+    background: #354463 0% 0% no-repeat padding-box;
+}
 
+.actions-for-saving-future{
+    background-color: green;
+    height: 100%;
+}
+.actions-for-saving-future-title{
+    
+    text-align: center;
+    font: normal normal normal 15rem Flood Std;
+    color: #FFFFFF;
+}
+
+.tree-planting-event-image{
+    background-image: url("resources/tree-planting.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 312px;
+}
+.tree-planting-event-title{
+    text-align: center;
+    font: normal normal bold 7rem Helvetica;
+    color: #FFFFFF;
+}
+.tree-planting-event-info{
+    text-align: center;
+    font: normal normal 300 5rem Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+}
+.read-more-about-events{
+    width: 50%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    text-align: center;
+    font: normal normal bold 6rem Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    display: grid;
+    justify-items: center;
+}
+.updates-from-quaterly-meeting-image{
+    background-image: url("resources/meeting.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 312px;
+}
+.updates-from-quaterly-meeting-title{
+    text-align: center;
+    font: normal normal bold 7rem Helvetica;
+    color: #FFFFFF;
+}
+.updates-from-quaterly-meetingt-info{
+    text-align: center;
+    font: normal normal 300 5rem Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    
 }
