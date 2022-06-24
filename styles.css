@@ -249,11 +249,17 @@
 }
 
 .actions-for-saving-future{
-    background-color: green;
+    background-color: #354463;
     height: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.actions-for-saving-future-container{
+    /* padding-bottom: 110%; */
+    overflow:auto;
 }
 .actions-for-saving-future-title{
-    
+
     text-align: center;
     font: normal normal normal 15rem Flood Std;
     color: #FFFFFF;
@@ -275,7 +281,7 @@
     text-align: center;
     font: normal normal 300 5rem Helvetica;
     letter-spacing: -0.14px;
-    color: #354463;
+    color: white;
 }
 .read-more-about-events{
     width: 50%;
@@ -306,6 +312,62 @@
     text-align: center;
     font: normal normal 300 5rem Helvetica;
     letter-spacing: -0.14px;
+    color: white;   
+}
+
+.subscription-part{
+    background-color: #C1F7D5;
+}
+.subscription-part-container{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: #C1F7D5;
+}
+.subscription-title{
+    text-align: left;
+    font: normal normal bold 7rem Helvetica;
     color: #354463;
-    
+    opacity: 1;
+}
+.subscription-email{
+    padding-top: 10%;
+    justify-self: start;
+    width: 130%;
+    text-align: center;
+}
+.subscription-email input[type="text"]{
+    text-align: right;
+    width: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    text-align: left;
+    font: normal normal 300 4rem Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+.subscription-button{
+    padding-top: 10%;
+    width: 70%;
+    justify-self: end;
+}
+.subscription-button button{
+    font: normal normal bold 5rem Helvetica;
+    letter-spacing: 0px;
+    color: #C1F7D5;
+    opacity: 1;
+    background: #354463 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    padding: 9%;
+    padding-left: 12%;
+    padding-right: 12%;
 }
