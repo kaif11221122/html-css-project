@@ -159,10 +159,8 @@
     .actions-for-saving-future-container{
         width: 80%;
         min-height: 0;
-        background-color: red;
         display: grid;
         grid-row-gap:5%;
-        border: 2px solid black;
     }
     .actions-container{
         display: grid;
@@ -177,6 +175,22 @@
         display: grid;
         justify-items: center;
         grid-row-gap:7%;
+    }
+    .subscription-part{
+        display: grid;
+        justify-items: center;
+        height: fit-content;
+    }
+    .subscription-part-container{
+        width: 80%;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-column-gap:5%;
+        align-items: center;
+        justify-items: center;
+    }
+    .subscription-title{
+        grid-column:1/3;
     }
 
 }
@@ -202,6 +216,3 @@
 /* html { 
     font-size: 100%; 
 }
-
-
-
