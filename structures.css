@@ -193,6 +193,26 @@
         grid-column:1/3;
     }
 
+    .green-tree-initiative-footer-part{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        height: auto;
+    }
+    .green-tree-initiative-footer-part-container{
+        width: 80%;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+    .footer-stop-climate-change{
+        grid-column: 2;
+    }
+    .footer-follow-us{
+        padding-top: 10%;
+    }
+    .footer-learn-more{
+        padding-top: 10%;
+    }
 }
 
 /* @media (min-width: 377px) and (max-width: 768px){
@@ -216,3 +236,6 @@
 /* html { 
     font-size: 100%; 
 }
+
+
+
