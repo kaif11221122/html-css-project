@@ -29,13 +29,29 @@
     padding: 10rem;
     
 }
+.stop-climate-change{
+    width: 100%;
+    height: 650px;
+    background-image: url("resources/annie-spratt-135307-unsplash.png");
+    background-size: 100%, 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .stop-climate-change-heading{
     font: normal normal normal 14rem Flood Std;
     color: white;
     display: grid;
     justify-content: center;
 }
-
+.what-is-the-issue-heading{
+    justify-self: center;
+    transform: translate(0%,-125%);
+}
+.take-action-heading{
+    grid-column: 1/3;
+    position: relative;
+    transform: translate(0%,-50%);
+}
 .what-is-the-issue-heading{
     width: 40%;
     text-align: center;
@@ -49,7 +65,7 @@
 }
 .what-is-the-issue-body{
     text-align: center;
-    font: normal normal bold 5em Helvetica;
+    font: normal normal bold 6rem Helvetica;
     color: #354463;
 }
 .read-more-environmental-cause{
@@ -100,6 +116,7 @@
     text-align: center;
     font: normal normal bold 7rem Helvetica;
     color: #FFFFFF;
+    padding-bottom: 10%;
 }
 
 .what-we-do-catalogue-heading{
@@ -112,6 +129,8 @@
     font: normal normal 300 5rem Helvetica;
     letter-spacing: -0.14px;
     color: #354463;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 .what-we-do-catalogue{
     background-color: white;
@@ -139,14 +158,19 @@
 
 .climate-change-is-issue{
     background-image: url("resources/did-you-know-android.png");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: wheat;
-    height: 1200px;
+    height: auto;
+}
+.climate-change-is-issue-container{
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 .climate-change-is-issue-heading{
     width: 70%;
+    padding-bottom: 5%;
     text-align: left;
     font: normal normal normal 10rem Flood Std;
     color: #FFFFFF;
@@ -155,7 +179,7 @@
 .climate-change-is-issue-take-action{
     text-align: center;
     width: 40%;
-    height: 15rem;
+    padding: 5%;
     background: #C1F7D5 0% 0% no-repeat padding-box;
     border-radius: 100px;
     font: normal normal bold 4rem Helvetica;
@@ -164,9 +188,13 @@
     align-items: center;
     justify-items: center;
 }
+.climate-change-is-issue-catalogues{
+    padding-top: 20%;
+}
 .climate-change-is-issue-catalogue{
-    background-color: brown;
+    background-color: white;
     padding: 10%;
+    margin: 2%;
 }
 .climate-change-catalouge-heading{
     font: normal normal bold 7rem Helvetica;
@@ -210,7 +238,9 @@
 .information-block-of-stories{
     background-color: #354463;
     padding: 10%;
+    width: 80%;
     display: grid;
+    margin:5%;
     grid-row-gap:10%;
 }
 .information-block-of-stories-info{
@@ -254,12 +284,8 @@
     padding-top: 10%;
     padding-bottom: 10%;
 }
-.actions-for-saving-future-container{
-    /* padding-bottom: 110%; */
-    overflow:auto;
-}
 .actions-for-saving-future-title{
-
+    padding-bottom: 5%;
     text-align: center;
     font: normal normal normal 15rem Flood Std;
     color: #FFFFFF;
@@ -276,12 +302,15 @@
     text-align: center;
     font: normal normal bold 7rem Helvetica;
     color: #FFFFFF;
+    padding-top: 10%;
 }
 .tree-planting-event-info{
     text-align: center;
     font: normal normal 300 5rem Helvetica;
     letter-spacing: -0.14px;
     color: white;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 .read-more-about-events{
     width: 50%;
@@ -296,6 +325,18 @@
     display: grid;
     justify-items: center;
 }
+.event-title{
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:25%;
+    text-align: center;
+    font: normal normal normal 4rem Helvetica;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    letter-spacing: 0.56px;
+    color: #354463;
+    padding: 3%;
+}
 .updates-from-quaterly-meeting-image{
     background-image: url("resources/meeting.png");
     background-size: cover;
@@ -307,12 +348,27 @@
     text-align: center;
     font: normal normal bold 7rem Helvetica;
     color: #FFFFFF;
+    padding-top: 10%;
 }
 .updates-from-quaterly-meetingt-info{
     text-align: center;
     font: normal normal 300 5rem Helvetica;
     letter-spacing: -0.14px;
     color: white;   
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.latest-news-title{
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:25%;
+    text-align: center;
+    font: normal normal normal 4rem Helvetica;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    letter-spacing: 0.56px;
+    color: #354463;
+    padding: 3%;
 }
 
 .subscription-part{
