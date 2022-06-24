@@ -17,7 +17,7 @@
         padding: 5%;
     }
     .top-nav-bar-links{
-        color: red;
+        color: #354463;
     }
     .top-nav-bar-green-tree-initiative{
         grid-column: 1;
@@ -78,7 +78,6 @@
         justify-items: center;
     }
     .what-we-do-container{
-        background-color: red;
         width: 80%;
         justify-items: center;
         padding-top: 10%;
@@ -91,6 +90,255 @@
         padding-top: 5%;
         text-align: left;
     }
+    .what-we-do-catalogue{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        justify-items: center;
+    }
+    .what-we-do-catalogue-image{
+        grid-row:1;
+    }
+    .what-we-do-catalogue-read-more{
+        justify-self: end;
+        align-self: end;
+        grid-row:2;
+        padding-top: 0%;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        height: 20%;
+        width: auto;
+    }
+    .what-we-do-catalogue-heading{
+        align-self: center;
+        grid-column:2;
+        padding-left: 10%;
+    }
+    /*  */
+    .climate-change-is-issue{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+    .climate-change-is-issue-container{
+        width: 80%;
+        display: grid;
+        justify-items: start;
+        align-items: start;
+        grid-template-columns: 2fr 2fr;
+    }
+    .climate-change-is-issue-catalogues{
+        grid-row:1/3;
+        grid-column: 2;
+        display: grid;
+    }
+    .climate-change-is-issue-catalogue{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        align-items: center;
+        justify-items: center;
+    }
+    .climate-change-catalouge-heading{
+        grid-row:1;
+    }
+    .climate-change-catalouge-info{
+        grid-row:2;
+    }
+    .climate-change-catalouge-logos{
+        grid-row:1/3;
+        grid-column: 2;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-row-gap:5%;
+        justify-content: center;
+        align-self: center;
+    }
+    .icon{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+
+    /*  */
+    .stories-about-organization{
+        display: grid;
+        justify-items: center;
+    }
+    .stories-about-organization-container{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        width: 80%;
+        justify-items: center;
+    }
+    .stories-about-organization-image{
+        position: relative;
+        transform: translate(0%,30%);
+        z-index: 0;
+        width: 80%;
+    }
+    .stories-label{
+        position: absolute;
+        transform: translate(20%,-50%);
+    }
+    .information-block-of-stories{
+        position: relative;
+        justify-self: end;
+        transform: translate(5%,0%);
+        z-index: 1;
+    }
+    .read-more-about-stories{
+        width: 50%;
+        position: relative;
+        transform: translate(20%,0%);
+    }
+
+    /*  */
+    .subscription-part{
+        display: grid;
+        justify-items: center;
+        height: fit-content;
+    }
+    .subscription-part-container{
+        width: 80%;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-column-gap:5%;
+        align-items: center;
+        justify-items: center;
+    }
+    .subscription-title{
+        grid-column:1/3;
+    }
+
+    /*  */
+    .green-tree-initiative-footer-part{
+        display: grid;
+        justify-items: center;
+    }
+    .green-tree-initiative-footer-part-container{
+        width: 80%;
+        display: grid;
+        grid-template-columns: 3fr 3fr;
+        justify-items: center;
+        align-items: center;
+        grid-column-gap:10% ;
+    }
+    .footer-heading{
+        padding: 5%;
+        width: 100%;
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .footer-contact-us{
+        padding-left: 15%;
+        width: 100%;
+        height: 100%;
+        grid-column: 2;
+        grid-row: 1;
+        justify-self: center;
+        display: grid;
+        grid-row-gap: 10%;
+    }
+    .footer-learn-more{
+        padding: 5%;
+        width: 100%;
+        grid-column: 2;
+        grid-row: 2;
+        display: grid;
+        grid-row-gap: 10%;
+    }
+    .footer-follow-us{
+        grid-column: 3;
+        grid-row: 1;
+        justify-self: center;
+        display: grid;
+        grid-row-gap: 10%;
+    }
+    .footer-stop-climate-change{
+        width: 100%;
+        grid-column: 3;
+        grid-row: 2;
+        justify-self: start;
+    }
+
+    /*  */
+    .actions-for-saving-future{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+    .actions-for-saving-future-container{
+        width: 80%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        justify-items: center;
+        align-items: center;
+    }
+    .actions-container{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    .tree-planting-event{
+        padding-top: 10%;
+        padding-bottom: 10%;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        justify-items: center;
+        align-items: center;
+        grid-column-gap: 5%;
+    }
+    .tree-planting-event-image{
+        grid-row:1/4;
+    }
+    .tree-planting-event-title{
+        grid-row:1;
+        padding-top: 50%;
+    }
+    .tree-planting-event-info{
+        grid-row:2;
+    }
+    .read-more-about-events{
+        grid-row:3;
+    }
+    .event-title{
+        position: absolute;
+        transform: translate(20%,0%);
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+
+    .updates-from-quaterly-meeting{
+        padding-top: 10%;
+        padding-bottom: 10%;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        justify-items: center;
+        align-items: center;
+        grid-column-gap: 5%;
+    }
+    .updates-from-quaterly-meeting-image{
+        grid-row:1/4;
+        grid-column: 2;
+    }
+    .updates-from-quaterly-meeting-title{
+        grid-row:1;
+        padding-top: 50%;
+    }
+    .updates-from-quaterly-meeting-info{
+        grid-row:2;
+    }
+    .read-more-about-events{
+        grid-row:3;
+    }
+    .latest-news-title{
+        position: absolute;
+        transform: translate(-120%,0%);
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
 }
 @media (min-width: 768px){
     .body2{
@@ -98,14 +346,14 @@
         flex-direction: column;
     }
     html {
-        font-size: 22%;
+        font-size: 30%;
     }
     *{
         margin: 0%;
         padding: 0%;
     }
     .top-nav-bar-links{
-        color: yellow;
+        color: #354463;
     }
     .top-nav-bar{
         padding: 5%;
@@ -168,18 +416,244 @@
         justify-items: center;
     }
     .what-we-do-container{
-        background-color: red;
         width: 80%;
-        justify-items: center;
         padding-top: 10%;
         padding-bottom: 10%;
+        display: grid;
+        grid-template-columns: 3fr 3fr;
+        justify-items: center;
+        grid-column-gap: 5%;
     }
     .what-we-do-heading{
-        width: 20%;
+        width: auto;
+        grid-row:1;
+        grid-column: 1;
     }
     .what-we-do-info{
+        width: 100%;
         padding-top: 5%;
         text-align: left;
+        grid-row:2;
+        grid-column:1/4;
+    }
+    #what-we-do-catalogue-1{
+        grid-row:3;
+        grid-column:1;
+        justify-self: center;
+        width: 150%;
+    }
+    #what-we-do-catalogue-2{
+        width: 100%;
+        grid-row:3;
+        grid-column:2;
+        margin-left: 25%;
+    }
+    #what-we-do-catalogue-3{
+        width: 50%;
+        grid-row:3;
+        grid-column:3;
+    }
+    .what-we-do-catalogue-read-more{
+        width: 50%;
+        display: grid;
+        justify-items: center;
+    }
+    .what-we-do-catalogue-image{
+        position: relative;
+        transform: translate(15%,-15%);
+    }
+    .what-we-do-catalogue{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+    }
+    /*  */
+    .climate-change-is-issue{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+    .climate-change-is-issue-container{
+        width: 80%;
+        display: grid;
+        justify-items: start;
+        align-items: start;
+        grid-template-columns: 2fr 2fr;
+    }
+    .climate-change-is-issue-catalogues{
+        grid-row:1/3;
+        grid-column: 2;
+        display: grid;
+    }
+    .climate-change-is-issue-catalogue{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        align-items: center;
+        justify-items: center;
+    }
+    .climate-change-catalouge-heading{
+        grid-row:1;
+    }
+    .climate-change-catalouge-info{
+        grid-row:2;
+    }
+    .climate-change-catalouge-logos{
+        grid-row:1/3;
+        grid-column: 2;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-row-gap:5%;
+        justify-content: center;
+        align-self: center;
+    }
+    .icon{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+    /*  */
+    .stories-about-organization{
+        display: grid;
+        justify-items: center;
+    }
+    .stories-about-organization-container{
+        padding-top: 10%;
+        padding-bottom: 10%;
+        width: 80%;
+        justify-items: center;
+    }
+    .stories-about-organization-image{
+        position: relative;
+
+        transform: translate(0%,30%);
+        z-index: 0;
+        width: 80%;
+    }
+    .stories-label{
+        position: absolute;
+        transform: translate(20%,-50%);
+    }
+    .information-block-of-stories{
+        position: relative;
+        justify-self: end;
+        transform: translate(5%,0%);
+        z-index: 1;
+    }
+    .read-more-about-stories{
+        width: 50rem;
+        position: relative;
+        transform: translate(20%,0%);
+    }
+    .subscription-part{
+        display: grid;
+        justify-items: center;
+        height: fit-content;
+    }
+    .subscription-part-container{
+        width: 80%;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-column-gap:5%;
+        align-items: center;
+        justify-items: center;
+    }
+    .subscription-title{
+        grid-column:1/3;
+    }
+    .green-tree-initiative-footer-part{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+    .green-tree-initiative-footer-part-container{
+        width: 80%;
+        display: flex;
+        align-items: center;
+    }
+    .footer-contact-us{
+        padding: 0%;
+    }
+    .footer-follow-us{
+        padding-right: 10%;
+    }
+    /*  */
+    .actions-for-saving-future{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+    .actions-for-saving-future-container{
+        width: 80%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        justify-items: center;
+        align-items: center;
+    }
+    .actions-container{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    .tree-planting-event{
+        padding-top: 10%;
+        padding-bottom: 10%;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        justify-items: center;
+        align-items: center;
+        grid-column-gap: 5%;
+    }
+    .tree-planting-event-image{
+        grid-row:1/4;
+    }
+    .tree-planting-event-title{
+        grid-row:1;
+        padding-top: 50%;
+    }
+    .tree-planting-event-info{
+        grid-row:2;
+    }
+    .read-more-about-events{
+        grid-row:3;
+    }
+    .event-title{
+        position: absolute;
+        transform: translate(20%,0%);
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+
+    .updates-from-quaterly-meeting{
+        padding-top: 10%;
+        padding-bottom: 10%;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        justify-items: center;
+        align-items: center;
+        grid-column-gap: 5%;
+    }
+    .updates-from-quaterly-meeting-image{
+        grid-row:1/4;
+        grid-column: 2;
+    }
+    .updates-from-quaterly-meeting-title{
+        grid-row:1;
+        padding-top: 50%;
+    }
+    .updates-from-quaterly-meeting-info{
+        grid-row:2;
+    }
+    .read-more-about-events{
+        grid-row:3;
+    }
+    .latest-news-title{
+        position: absolute;
+        transform: translate(-120%,0%);
+        padding-top: 3%;
+        padding-bottom: 3%;
     }
 }
 @media (max-width: 377px){
