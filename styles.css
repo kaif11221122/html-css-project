@@ -371,3 +371,46 @@
     padding-left: 12%;
     padding-right: 12%;
 }
+
+
+.green-tree-initiative-footer-part-container{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.footer-heading{
+    width: 50%;
+    text-align: left;
+    font: normal normal bold 6rem Helvetica;
+    color: #354463;
+}
+.footer-sub-heading{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: left;
+    font: normal normal normal 4rem Helvetica;
+    letter-spacing: 0.44px;
+    color: #354463;
+}
+.footer-contact-us-address{
+    width: 60%;
+    text-align: left;
+    font: normal normal 300 3.5rem Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    justify-content: space-around;
+}
+.footer-sub-info{
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal 300 3.5rem Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+}
+.footer-stop-climate-change{
+    padding-top: 10%;
+    text-align: right;
+    font: normal normal normal 14rem Flood Std;
+    letter-spacing: 0px;
+    color: #354463;
+    justify-self: start;
+}
